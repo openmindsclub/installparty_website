@@ -1,0 +1,921 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	    M D L P 2
+Version:	    1.0
+Last change:	12/08/2015
+Author:         Mat Przegietka 
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Helper Classes
+2. Preloader
+3. Content Animation
+4. Navigation
+5. Homepage Content
+6. Tabs
+7. Icons
+8. Lists
+9. Video section
+10. Pricing Boxes
+11. Reviews
+12. Contact
+13. Footer
+14. Material Design Lite tweeks
+
+-------------------------------------------------------------------*/
+
+/*--------------------------------------*/
+/* 1. Helper Classes -------------------*/
+/*--------------------------------------*/
+
+.align-center {text-align:center}
+.align-left {text-align:left}
+.align-right {text-align:right}
+.float-left {float:left}
+.img_responsive {max-width: 100%}
+.img-circle {border-radius: 50%}
+.img-rounded_corner {border-radius: 0.2rem}
+.margin-top-5 {margin-top:5rem;}
+.margin-bottom-5 {margin-bottom:5rem;}
+.margin-top-2 {margin-top:2rem;}
+.margin-bottom-2 {margin-bottom:2rem;}
+.padding-top-5 {padding-top:5rem;}
+.padding-bottom-5 {padding-bottom:5rem;}
+.padding-top-2 {padding-top:2rem;}
+.padding-bottom-2 {padding-bottom:2rem;}
+.subsection { padding-top:3.5rem; padding-bottom:8rem; position:relative; z-index:100;}
+.subsection_reg { padding-top:2rem; padding-bottom:12rem; position:relative; z-index:100;}
+.subsection_activite { padding-top:2rem; padding-bottom:5rem; position:relative; z-index:100;}
+.subsection_galerie { padding-top:1rem; padding-bottom:8rem; position:relative; z-index:100;}
+.subsection_contact { padding-top:5rem; padding-bottom:2.5rem; position:relative; z-index:100;}
+.subsection_bureau { padding-top:2.5rem; padding-bottom:3.5rem; position:relative; z-index:100;}  
+.subsection_comments { padding-top:4rem; padding-bottom:6rem; position:relative; z-index:100;}
+.subsection_sponsors { padding-top:2rem; padding-bottom:5rem; position:relative; z-index:100;}
+
+/*--------------------------------------*/
+/* 2. Preloader ------------------------*/
+/*--------------------------------------*/
+
+body {
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:2302; /* makes sure it stays on top */
+}
+
+#status {
+	text-align:center;
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.mdl-spinner {
+	width:200px;
+	height:200px;
+}
+
+
+/*--------------------------------------*/
+/* 3. Content Animation ----------------*/
+/*--------------------------------------*/
+
+.home_anim1,
+.home_anim2,
+.home_anim3,
+.home_anim4,
+.home_anim5,
+.home_anim6,
+.home_anim7,
+.home_anim8,
+.home_anim9,
+.home_anim10,
+
+.more_info_anim1,
+.more_info_anim2,
+.more_info_anim3,
+.more_info_anim4,
+.more_info_anim5,
+.more_info_anim6,
+.more_info_anim7,
+.more_info_anim8,
+.more_info_anim9,
+.more_info_anim10,
+
+.features_anim1,
+.features_anim2,
+.features_anim3,
+.features_anim4,
+.features_anim5,
+.features_anim6,
+.features_anim7,
+.features_anim8,
+.features_anim9,
+.features_anim10,
+
+.screenshots_anim1,
+.screenshots_anim2,
+.screenshots_anim3,
+.screenshots_anim4,
+.screenshots_anim5,
+.screenshots_anim6,
+.screenshots_anim7,
+.screenshots_anim8,
+.screenshots_anim9,
+.screenshots_anim10,
+
+.pricing_anim1,
+.pricing_anim2,
+.pricing_anim3,
+.pricing_anim4,
+.pricing_anim5,
+.pricing_anim6,
+.pricing_anim7,
+.pricing_anim8,
+.pricing_anim9,
+.pricing_anim10,
+
+.testimonials_anim1,
+.testimonials_anim2,
+.testimonials_anim3,
+.testimonials_anim4,
+.testimonials_anim5,
+.testimonials_anim6,
+.testimonials_anim7,
+.testimonials_anim8,
+.testimonials_anim9,
+.testimonials_anim10
+
+{
+	opacity:0
+}
+
+
+/*--------------------------------------*/
+/* 4. Navigation -----------------------*/
+/*--------------------------------------*/
+
+/*-- desktop navigation --*/
+
+.navigation_desktop ul:not(.mdl-menu) { 
+    float:right;
+    padding-right:0px;
+    margin:0;
+    padding-top: 0px ;   
+    line-height: 4rem;    
+}
+
+.navigation_desktop ul li:not(.mdl-menu__item) {
+    float:left;
+    padding:0;
+    margin-top:0;
+    margin-bottom:0;
+    height:auto;
+    margin-left:1rem;
+	margin-right:1rem;
+	display:inline-block;	
+}
+
+.navigation_desktop ul li:last-child {
+	margin-right:0;
+}
+
+.navigation_desktop ul li a:not(.mdl-menu_a) {
+	font-size: none;
+	font-weight: none;
+	line-height: 1.71rem;
+	margin:0 !important;
+	padding:0 !important;
+	letter-spacing: 0;
+	opacity: 0.7;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	color:white;
+	text-transform: uppercase;
+    font-weight: 600 ;
+}
+
+.navigation_desktop a:not(.mdl-menu_a):hover {
+	opacity:1;
+}
+
+.navigation_desktop li a:focus, .navigation_desktop a:hover {
+	outline:none;
+	text-decoration: none;
+}
+
+/*-- menu_bar --*/
+
+.menu_bar {
+	height: 4rem;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index:900;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: translateY(-105%);
+	-moz-transform: translateY(-105%);
+	transform: translateY(-105%);
+	-ms-transform: translateY(-105%);
+}
+
+.menu_bar-hide {
+	height: 4rem;
+	-webkit-transform: translateY(-105%);
+	-moz-transform: translateY(-105%);
+	transform: translateY(-105%);
+	-ms-transform: translateY(-105%);
+	
+}
+
+.bur {
+    padding-top: 50px ;
+}
+.menu_bar-show {
+	height: 4rem;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+	-ms-transform: translateY(0%);
+
+}
+
+.menu_bar .navigation_desktop ul {
+	margin:20px 20px 0px 0px;
+	
+}
+
+.mobile_open_button {
+	
+}
+
+.logo{
+    line-height: 0;
+    margin-top:10px;
+}
+
+
+/*-- Mobile Menu --*/
+
+.cbp-spmenu {
+	position: fixed;
+	padding-top:0rem;
+	padding-left:0rem;
+	background-color: white;
+	
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.cbp-spmenu-vertical {
+	width: 250px;
+	height: 100%;
+	top: 0;
+	z-index: 1001;
+}
+
+.cbp-spmenu-right {
+	right:-255px;
+	-webkit-animation: animation_back 1000ms linear both;
+    animation: animation_back 1000ms linear both;
+}
+
+#mobile_menu_content {
+	float:left;
+}
+
+#mobile_menu_content ul li a{
+	color:black;
+	padding: 0 2rem;
+	font-size: 1.2rem;
+	height: 3.2rem;
+	line-height:  3.2rem;
+	width:250px;
+	display: block;		
+}
+
+#mobile_menu_content ul li a:hover {
+	background-color: rgb(238,238,238)
+}
+
+#mobile_menu_content ul li {
+	width:250px;
+	display: block;	
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+  	-webkit-animation: animation 1000ms linear both;
+  	animation: animation 1000ms linear both;
+}
+
+
+/* Generated with Bounce.js. Edit at http://goo.gl/6EqiXS */
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -102.854, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -102.854, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -175.717, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -175.717, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -210.455, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -210.455, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -218.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -218.667, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204.125, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204.125, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -198.754, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -198.754, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200.083, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200.083, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -199.994, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -199.994, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -102.854, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -102.854, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -175.717, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -175.717, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -210.455, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -210.455, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -218.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -218.667, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204.125, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204.125, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -198.754, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -198.754, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200.083, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200.083, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -199.994, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -199.994, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); } 
+}
+
+/* Generated with Bounce.js. Edit at http://goo.gl/Y6j3eR */
+
+@-webkit-keyframes animation_back { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -97.146, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -97.146, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -24.283, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -24.283, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.455, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.455, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.667, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.125, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.125, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.246, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.246, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.083, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.083, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation_back { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -200, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -97.146, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -97.146, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -24.283, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -24.283, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.455, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.455, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.667, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.125, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.125, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.246, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.246, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.083, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.083, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
+
+/*-- Mobile Menu open & close buttons --*/
+
+#mobile_menu_content {
+    clear:both;
+    box-shadow:none;
+    -webkit-box-shadow: none;
+}
+
+.mdl-menu__container{
+	margin-top:0.5rem;
+}
+
+.mdl-menu__item {
+	padding: 0 1.14rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	line-height:  2rem;	
+}
+
+.mdl-menu__item a{
+	color:black
+}
+
+.menu_button {
+	position:relative;
+	float:right;
+	margin-top:-0.05rem;
+}
+
+
+/*--------------------------------------*/
+/* 5. Homepage Content -----------------*/
+/*--------------------------------------*/
+
+.top_bar {
+	position:relative;
+	z-index:2000;
+	margin-bottom:0rem;
+}
+
+html {
+	overflow-x:hidden;
+}
+
+.logo_home {
+	float:left;
+	margin-bottom:7rem;
+}
+
+.hero_fullscreen {
+	padding-top:1.5rem;
+}
+
+
+.home_content {
+/*	padding-top:5rem;*/
+	padding-bottom:3rem;
+    margin-left: 40px !important ;   
+}
+
+
+.home_content button {
+	margin-top:1rem;
+}
+
+
+/*-- homepage images --*/
+
+.dummy {
+    margin:0 auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    padding:0;	
+}
+
+.layer {
+	position:absolute; 
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin: 0 auto;  
+}
+
+
+/*--------------------------------------*/
+/* 6. Tabs -----------------------------*/
+/*--------------------------------------*/
+
+.mdl-tabs__tab-bar {
+	height: 3.43rem;
+	margin-bottom:0rem;
+	margin-top:0rem;
+}
+
+.mdl-tabs__tab {
+	padding: 0 1.71rem 0 1.71rem;
+	height: 3.43rem;
+	line-height: 3.43rem;
+	font-size: 1rem
+}
+
+.mdl-tabs__tab span {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.mdl-tabs__tab i {
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 1.5rem;
+	padding-bottom:0.2rem;
+}
+
+
+/*--------------------------------------*/
+/* 7. Icons ----------------------------*/
+/*--------------------------------------*/
+
+.material-icons-big {
+	font-size:3rem;
+}
+
+/*--------------------------------------*/
+/* 8. Lists ----------------------------*/
+/*--------------------------------------*/
+
+.ulist {
+	padding-bottom:0.3rem;
+}
+
+.ulist li {
+	margin-bottom:0.5rem;
+	font-size: 1.14rem;
+	font-weight: 400;
+	line-height: 1.71rem;
+	letter-spacing: 0.02rem;
+  	margin-top: 1.71rem;
+  	margin-bottom: 1.14rem;
+  	opacity: 0.8;
+  	position:relative
+  		
+}
+
+.ulist li span{
+  	display:inline-block;
+	overflow: hidden;
+	margin-left:4rem;
+} 
+
+.list-icons i {
+	display:inline-block;
+	vertical-align: middle;
+	margin-right:1rem;
+	margin-left:1rem;
+	padding-top:0;
+	position:absolute;
+	left:0;
+	top:0.1rem;
+}
+.item {
+    padding-top: 50px ;
+}
+
+.owl-controls {
+    padding-top: 30px ;
+}
+
+/*--------------------------------------*/
+/* 9. Video section --------------------*/
+/*--------------------------------------*/
+
+.video_headline h3, .video_headline a {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.video_headline a {
+	margin-left:2rem;
+	margin-right:2rem;
+}
+
+#video {
+	background: url(../images/video_bg.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0;
+  padding-top:5rem;
+  padding-bottom:5rem;
+}
+
+video, object {
+	top:0;left:0;
+	position:absolute;
+	z-index:1;
+}
+
+iframe {border:none;}
+
+#video_modal_box {display:none;}
+
+
+/*-----------------------------------------*/
+/* 10. Pricing Boxes ----------------------*/
+/*-----------------------------------------*/
+
+.pricing_box_head_content {
+	padding:2rem;
+	position:relative;
+	z-index:2
+}
+
+.pricing_box_head_bg {
+	position:absolute; 
+	top:0; 
+	opacity:0.3; 
+	z-index:1
+}
+
+.pricing_box_head {
+	position:relative
+}
+
+.pricing_box_body {
+	padding-top:2rem;
+	padding-bottom:2rem;
+	padding-left:2rem;
+	padding-right:2rem;	
+}
+
+.pricing_box_footer {
+	padding-top:0rem;
+	padding-bottom:2rem;
+	padding-left:2rem;
+	padding-right:2rem;	
+	margin-bottom:1rem;
+}
+
+.pricing_box_head p {
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+.pricing_box_head i {
+	font-size: 2rem; 
+}
+
+.pricing_box_head h1, .pricing_box_head h6, .pricing_box_head p {
+	margin-top:0rem;
+	margin-bottom:0rem;
+}
+
+.pricing_box_body, .pricing_box_footer {
+	position:relative;
+	z-index:3
+}
+
+.pricing_box_body_list li{
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.71rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1.14rem;
+	opacity: 0.8;
+	border-bottom: solid 1px rgba(255,255,255,0.2);
+} 
+
+.pricing_box_body_list li:last-child {
+	border:0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+/*--------------------------------------*/
+/* 11. Reviews -------------------------*/
+/*--------------------------------------*/
+
+.single_review {
+	position:relative;
+	margin-left:1rem;
+	margin-right:1rem;
+	padding-bottom: 1rem;
+}
+
+.single_review img{
+	max-width:5rem;
+	height:5rem;
+	margin-top:2rem;	
+}
+
+
+/*--------------------------------------*/
+/* 12. Contact -------------------------*/
+/*--------------------------------------*/
+
+#message {
+	margin-top:0.5rem;
+    display:none;
+    position: relative;
+    z-index:3000;
+    width:100%;
+    text-align:left; 
+    padding:1rem; 
+}
+
+.alert_title {
+	margin:0; 
+	display:inline-block;	
+	vertical-align: middle;
+}
+
+.unordered li p {
+    margin:0 !important;
+    font-size:1rem;
+    line-height:1.7rem;
+}
+
+.unordered {
+	margin:0;
+	padding:0;
+}
+
+#message.warning {
+	background:#F44336;
+}
+
+#message.success {
+	background:#4CAF50;
+	padding-bottom:0rem;
+} 
+
+
+/*--------------------------------------*/
+/* 13. Footer --------------------------*/
+/*--------------------------------------*/
+
+#footer {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+#footer p {
+	font-size: 0.8rem;
+}
+
+#footer i {
+	display:inline-block;
+	vertical-align: middle;
+	margin-bottom:0 rem;
+}
+
+
+/*--------------------------------------*/
+/* 14. Material Design Lite tweeks -----*/
+/*--------------------------------------*/
+
+/* buttons */
+
+.mdl-button {
+	height: 2.57rem;
+	min-width: 2.57rem;
+	padding: 0 1.28rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2.57rem;
+}
+
+.mdl-button--fab {
+  	font-size: 2rem;
+  	height: 4rem;
+ 	min-width: 4rem;
+ 	width: 4rem;
+}
+
+.mdl-button--fab .material-icons {
+	font-size:2rem;
+    -webkit-transform: translate(-1rem, -1rem);
+        -ms-transform: translate(-1rem, -1rem);
+            transform: translate(-1rem, -1rem);
+    line-height: 2rem;
+    width: 2rem;
+}
+
+
+/* cards */
+
+.mdl-card {
+	display: block;
+	font-size: 1rem;
+	min-height: auto;
+	width: auto;
+	margin-bottom:1rem;
+}
+
+.mdl-card__supporting-text {
+	font-size: 1rem;
+	line-height: 0rem;
+	overflow: hidden;
+	padding: 1rem;
+	width: 100%; 
+	}
+
+.mdl-card__menu {
+ 	right: 1rem;
+  	top: 1rem; }
+  
+.mdl-card__menu a {
+	margin-right:0 !important;
+}
+
+
+/* inputs */
+ 
+.mdl-textfield {
+ 	font-size: 1rem;
+ 	width: 100%;
+  	max-width: 100%;
+  	margin: 0;
+  	padding: 1.43rem 0; }
+.mdl-textfield .mdl-button {
+    bottom: 1.43rem; }
+
+.mdl-textfield--full-width {
+  width: 100%; }
+
+.mdl-textfield--expandable {
+  	min-width: 2.28rem;
+  	width: auto;
+  	min-height: 2.28rem; }
+
+.mdl-textfield__input {
+  	font-size: 1rem;
+  	margin: 10px 0px 15px 0px;
+  	padding: 0.3rem 0;
+  	width: 100%;
+  	background: 1rem;
+}
+
+.mdl-textfield__label {
+  	bottom: 0;
+  	font-size: 1rem;
+  	left: 0;
+  	right: 0;
+  	top: 1.71rem;
+  	width: 100%;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label {
+    font-size: 1rem;
+    top: 0.3rem;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__expandable-holder .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__expandable-holder .mdl-textfield__label {
+    top: -1rem;
+}
+.mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+    font-size: 1rem;
+}
+.mdl-textfield__label:after {
+    bottom: 1.43rem;
+    height: 2px;
+    left: 45%;
+    width: 0.71rem;
+}
+
+.mdl-textfield__error {
+  	font-size: 1rem;
+  	margin-top: 0.3rem;
+}
+
+.mdl-textfield__expandable-holder {
+  	margin-left: 2.28rem;
+  	max-width: 0.1px;
+}
+.mdl-textfield.is-focused .mdl-textfield__expandable-holder, .mdl-textfield.is-dirty .mdl-textfield__expandable-holder {
+    max-width: 100%;
+}
+.mdl-textfield__expandable-holder .mdl-textfield__label:after {
+    bottom: 0;
+}
+  
+  
+  
+
+/*************** SOCIAL LINKS ****** filter: brightness(0) invert(1); **************/
+
+#social_links {
+    padding-top: 25px;
+    margin: 20px 0 20px 0;
+    position: relative;
+    animation: animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both;
+    -webkit-animation: animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both;
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+    
+}
+#social_links a {
+    display: inline-block;
+    margin:10px 20px 0px 13px;
+    height: 48px;
+    width: 48px;
+    transition: opacity 0.5s;
+    opacity: 0.6;
+}
+#social_links a:hover {
+    opacity: 1;
+}
+
+.input-field label {
+    width: auto !important;
+    left: 16px;
+}
+.select-dropdown li.optgroup {
+    min-height: 0;
+    height: 1px;
+}
+#custom_field {
+    display: none;
+}
+
+ .ytp-thumbnail-overlay.ytp-cued-thumbnail-overlay{height:80% !important;}
+ iframe { position: relative;top:80px; }
+
+/*#history{background-image:url('../images/gallery/panorama.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}*/

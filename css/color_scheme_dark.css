@@ -1,0 +1,57 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Color Scheme - Dark
+-------------------------------------------------------------------*/
+
+.mdl-color-text--color-1 {
+	color:white;
+}
+
+.mdl-color-text--color-2 {
+	color:white;
+}
+
+.mdl-color-text--color-3 {
+	color:black;
+}
+
+.mdl-color--color-1 {
+	background:#424242;
+}
+
+.mdl-color--color-2 {
+	background:#303030;
+}
+
+.mdl-color--color-3 {
+	background:#212121;
+}
+
+.mdl-color--color-4 {
+	background:black;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+	background-color: #424242;	
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-close,
+.nivo-lightbox-theme-default .nivo-lightbox-nav {
+	color:white
+}
+
+.mdl-tabs__tab-bar {
+	border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+
+.mdl-textfield__input {
+	border-bottom: 1px solid rgba(255,255,255, 0.12);
+}
+
+.mdl-textfield.is-disabled .mdl-textfield__input {
+	border-bottom: 1px dotted rgba(255,255,255, 0.12);
+}
+
+.mdl-textfield__label {
+	color: rgba(255,255,255, 0.26);
+}

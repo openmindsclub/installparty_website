@@ -1,0 +1,745 @@
+/***** Body *******/
+@font-face {  
+  font-family: "bitch"; 
+  src: url('typo-round/Typo_Round_Light_Demo.otf'); 
+}
+
+@font-face {  
+  font-family: "bitch_biss"; 
+  src: url('typo-round/Typo_Round_Regular_Demo.otf'); 
+}
+
+@font-face {  
+  font-family: "bitch_one"; 
+  src: url('lato/Lato-Regular.ttf'); 
+}
+
+
+body {
+    background: #fff;
+    font-family: bitch , quicksand , Ubuntu, Roboto, sans-serif !important;
+}
+a {
+    cursor: pointer;
+}
+h4{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+#preloader{
+    font-family: bitch_one;
+    background-color: #122639;
+    color: #fff;
+}
+/*****************/
+
+/*****Menu********/
+.navigation_desktop ul li a:not(.mdl-menu_a){
+    letter-spacing: 1px !important;
+}
+.container {
+    width: 941px;
+}
+
+.menu_bar .navigation_desktop ul {
+    margin: 16px 20px 0px 0px;
+}
+
+#topBarMain{
+    margin: 6px 50px 0px 0px;
+}
+
+#speakersIP ul {
+    font-family: bitch;
+    padding: 13px 10px;
+    line-height: 15px;
+}
+
+#ulWS{
+    margin-top: 4px;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 7%;
+}
+
+.textArea{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.textArea textarea{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.inDiv{
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+#signup_submit{
+    margin-top: 30px;
+}
+
+#signIP{
+    font-family: bitch_one;
+}
+
+#descrIP{
+    padding-top: 20px;
+}
+#descrIP p{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 8px 0px 2px 20px;
+    font-family: bitch_one;
+    line-height: 1rem;
+    margin-bottom: 0rem;
+}
+
+#descrIP p span{
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+/****************/
+
+/***** Sections ****/
+#iphome{
+    padding-bottom: 15rem;
+}
+
+#history{
+    padding-bottom: 5rem;
+}
+.success_inner{
+    background: #d9d9d9;
+    border: 0px;
+    font-family: bitch;
+    color: #0e1f34 ;
+}
+.success_inner h2{
+    font-family: bitch;
+    text-shadow: 0px;
+}
+
+#overly{
+    display:block;
+}
+
+.msg p {
+    font-family: bitch_one;
+    text-shadow: none;
+}
+.msg_inner{
+    text-shadow: none;
+}
+
+
+.text_desc{
+    color: #288C86;
+    text-align: justify;
+    word-spacing: 0px;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: bitch_one;
+}
+
+.section_titles{ /* -50px */
+    color: #f74b14 ;
+    font-family: bitch;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+#heightEd{
+    color: #f7b12c;
+}
+.vign{
+    width: 250px;
+    height: 250px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px;
+}
+
+.vign img{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.vignBig{
+    width: 500px;
+    height: 250px;
+    padding: 0px;
+}
+
+.vignBig img{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+.vignReg{
+    width: 750px;
+    height: 500px;
+    padding: 0px;
+}
+
+#wwIP{
+    background: #f4f8f7;
+    opacity:0.1;
+    font-family: bitch;
+    font-weight: 200px;
+}
+ 
+#wwIP p{
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#nmIP{
+    margin-top: 10px;
+}
+#fnmIP{
+    margin-top: 10px;
+}
+#emIP{
+    margin-top: 10px;
+}
+
+#wwIP p span{
+    font-weight: 700;
+}
+
+#countDown{
+    font-family: bitch;
+}
+#countDown div{
+    margin:23px 0px;
+}
+.countTime {
+    color: #288C86;
+    padding: 15px 23px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 50px;
+    font-size: 55px;
+}
+
+.countWord{
+    margin-top: 9px;
+    position: absolute;
+    left: 40%;
+    color: #288C86;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+#aboutIP p{
+    padding: 25px 0px 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#aboutIP p span{
+    font-weight: 700;
+}
+
+.savp{
+    font-family: bitch_one;
+    position: absolute;
+    top: 60%;
+    cursor: pointer;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#downSpIP{
+    color : #e82b1f ;
+    line-height: 18px;    
+}
+
+#downPsIP{
+    color : #e82b1f ;
+    line-height: 18px;    
+}
+
+#ipDesc{
+    width: 500px;
+    height: 250px;
+    padding: 0px;
+    display: none;
+    background: #f4f8f7;
+    opacity:0.1;
+    padding: 0px;
+}
+
+#ipDesc p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: bitch_one;
+    line-height: 25px;
+    padding: 22px 10px 22px 10px;
+    text-align: justify;
+}
+
+#turn{
+    display: none;
+}
+
+#goWS{
+    font-size: 32px;
+    color: #288C86;
+    opacity: 0.9;
+}
+#goWS:hover{
+    opacity: 1;
+}
+
+#goWSTit{
+    color: #288C86;
+    font-size: 37px;
+    margin-top: 0rem;
+}
+#ggWS{
+    color: #288C86;
+    font-size: 37px;
+    margin-top: 0rem;
+}
+#plus6{
+    color: #e82b1f;
+    font-size: 15px;
+}
+
+#dayIP p{
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#dayIP p span{
+    font-weight: 700;
+}
+
+#descIPDay{
+    background: #f4f8f7;
+    opacity:0.1;
+}
+
+#workIP{
+    padding: 25px 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#wsIP h4{
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    color: #f7b12c ;
+    font-family: bitch_biss;
+}
+
+#whySpIP h4{
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F8AE28 ;
+    font-family: bitch_biss;
+}
+
+#beSpnIP h4{
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 30px;
+    color: #616262 ;
+    font-family: bitch_biss;
+}
+
+#bePrsIP h4{
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    color: #616262 ;
+    font-family: bitch_biss;
+}
+
+#talksIP h4{
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    color: #288C86 ;
+    font-family: bitch_biss;
+}
+
+#wsIPBiss ul a{
+    text-align: left;
+    font-size: 20px;
+    line-height: 2px;
+    color:  #616262;
+    font-family: bitch_biss;
+}
+
+#wsIPBiss ul a li{
+    padding: 25px 0px 0px 20px;
+    color: #888989;
+}
+
+#wsIPBISS ul a li span{
+    font-weight: 700;
+}  
+
+#speakersIP{
+    background: #f4f8f7;
+    opacity:0.1;
+}
+#speakersIP ul a {
+    font-size: 21px;
+    color: #888989;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+#speakersIP ul li {
+    padding: 11px 0px 11px 20px;
+}
+
+
+#speakersIP ul a li span{
+    text-transform: uppercase;
+    font-family: bitch_biss;
+    font-weight: 500;
+}  
+
+.speakersDesc h4{
+    padding: 15px 5px 5px 20px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    color: #288C86;
+    font-family: bitch;
+}
+
+.speakersDesc p{
+    text-align: justify;
+    padding: 0px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: bitch_one;
+}  
+
+.workshopsDesc h4{
+    padding: 20px 0px 3px 20px;
+    text-align: left;
+    font-size: 25px;
+    color: #288C86 ;
+    font-family: bitch;
+    text-transform: uppercase;
+}
+
+.workshopsDesc p{
+    word-spacing: 1px;
+    font-family: bitch_one;
+    padding: 0px 20px;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 20px;
+
+}  
+
+.wsBold{
+    color: #288C86 ;
+    font-family: bitch_biss;
+}
+
+.wsSign{
+    color: #F5AF2B;
+    font-size: 14px;
+    padding: 25px 10px;
+}
+
+.input-field label {
+    top: 1.5rem;
+    color: #616262;
+}
+
+#aboutSpIP p{
+    color: #616262;
+    font-family: bitch_one;
+    line-height: 25px;
+    padding: 25px 10px 25px 10px;
+    text-align: justify;
+}
+
+
+#signWs{
+    color: #616262;
+    font-family: bitch_one; 
+}
+#signWs .input-field{
+    margin: 0px;
+    margin-top: 7px;
+}
+
+#signWs #signup_submit{
+    margin-top: 7px;
+}
+
+.switch-label {
+    color: #288C86;;
+    font-size: 1rem;
+    top: 0px;
+}
+
+.msg_inner {
+    font-family: bitch;
+    border-radius: 0px;
+    padding: 60px;
+}
+#whereFrom{
+    margin-bottom: 0px;
+}
+#agenda{
+    padding-bottom: 5rem;
+}
+
+#osLogo{
+    padding-top: 0rem;
+}
+
+#ipBG p{
+    color: #2980b9;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: bitch;
+}
+
+#ipBG p span{
+    color: #2980b9;
+    font-family: bitch_biss;
+}
+
+#descIPBG{
+    width: 500px;
+    height: 250px;
+    padding: 0px;
+    display: none;
+    background: #f4f8f7;
+    opacity:0.1;
+    padding: 0px;
+}
+
+#descIPBG p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: bitch_one;
+    line-height: 25px;
+    padding: 22px 10px 22px 10px;
+    text-align: justify;
+}
+#nospIP{
+    background: #f4f8f7;
+    opacity:0.1;
+}
+#speakIP{
+    background: #f4f8f7;
+    opacity:0.1;
+}
+#bgEmpIP{
+    background: #f4f8f7;
+    opacity:0.1;
+}
+#plus3b{
+    margin : 0px;
+    padding: 0px 20px;
+    top: 85%;
+}
+/*******************/
+.ip_home_content {
+    padding-top:1rem;
+    padding-bottom:1.5rem;
+}
+
+.ip_main{
+    padding-top: 1rem;
+}
+
+.supD{
+    font-size: 15px;
+    top : -2.5rem !important;
+}
+
+#signDiv{
+    padding-bottom: 2rem;
+}
+
+.mdl-color--primary {
+    background-color: #288C86 !important;
+}
+
+
+
+/****** Organizers *******/
+.vignOrg{
+    width: 187px;
+    height: 187px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+#organiz{
+    padding-bottom: 5rem;
+}
+
+.titles_form1{
+    color: #1A3134;
+}
+
+.divMem{
+    background: #f4f8f7;
+    opacity:0.1;
+    display: none;
+}
+
+.nameMem{
+    margin-bottom: 0px;
+    padding: 25px 5px 0px 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #288C86 ;
+    font-family: bitch_biss;
+}
+
+.nameMem1{
+    margin-bottom: 0px;
+    padding: 0px 5px 20px 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    color: #288C86 ;
+    font-family: bitch_biss;
+}
+
+.postMem{
+    line-height: 12px;
+    margin-bottom: 0px;
+    padding: 0px 5px;
+    font-size: 20px;
+    color: #616262 ;
+    font-family: bitch_biss;
+}
+
+.equipeMem{
+    margin-bottom: 0px;
+    padding: 0px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #616262 ;
+    font-family: bitch_biss;
+}
+
+
+
+/************************/
+
+/*******Footer********/
+
+#social_links{
+    padding: 0px;
+    filter: brightness(100%) invert(0.5);
+}
+
+#social_links a{
+        width: 22px;
+    height: 22px;
+    margin: 0px 10px;
+}
+
+#social_links img{
+    width: 100%;
+}
+
+#myFoot img{
+    padding: 20px 0px;
+    width: 5%;
+}
+
+#myFoot p{
+    color: #F5AF2B ;
+    font-family: bitch;
+    font-weight: 500;
+    font-size:25px;
+    letter-spacing: 2px;
+}
+
+#ip_soon{
+    font-size: 25px;
+    font-family: bitch_one ;
+}
+/***Logo Spons*****/
+.spons{
+    filter: brightness(100%) invert(0.5);
+    transition: opacity 0.2s, filter 0.2s;  
+}
+
+.spons:hover{
+    transition: opacity 0.2s, filter 0.2s;
+    filter: brightness(100%) invert(0);
+}
+
+#oin{ width: 85%; padding-top: 5%}
+#usthb{ width: 60%; }
+#auf{width: 60%;}
+#github{width: 100%;}
+#eng{width: 50%;padding-top: 2%}
+#sacs{width: 100%; padding-top: 10%}
+/******************/

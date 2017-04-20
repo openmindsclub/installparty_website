@@ -1,0 +1,166 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Responsiveness Fixes
+-------------------------------------------------------------------*/
+
+@media (max-width: 479px) {
+	#tgm_logo{width: 65%;padding-top: 50px;}
+	#back_to{font-size: 10px;     padding-left: 200px; }
+	#title_tgm{padding-top: 70px; padding-bottom: 0px; font-size: 22px;}
+	#date_tgm{ padding-bottom: 0px; font-size: 16px;}
+	.input-field{margin-bottom: 8px;}
+	.description_mod { font-size: 15px !important; }
+	.description_span {font-size: 15px !important ;}
+	#close_registration {top: 30px !important; right: 10px !important; font-size: 20px !important}
+	#mags {margin-left: 0px !important;}
+	#mags #newest {width:60%;left:70px; margin-bottom: 20px}
+	#mags #old {width:100%;}
+	#mags #old img {width:40%;}
+	.description_form { padding-top: 10px ;}
+	.tit {padding-top: 20px; margin-bottom: 2px;}
+	.home_content {text-align:center !important; padding-top:0rem; margin-left: 0px !important}
+	.container { margin-right: 0px ; margin-left: 0px ; width: 100% }
+	.top_bar {margin-bottom:0;}
+	.home_anim5 { font-size: 29px !important ;     line-height: 32px; }
+	#passion {margin-top: 50px;}
+	.menu_bar .navigation_desktop ul { margin:0px 20px 0px 0px;}
+	.logo { width: 40% ;height: 40% ; margin-left: none !important ; margin-bottom: 40px }
+	.img_res { width: 70% !important}
+	#social_links a { margin: 0px 2px 0px 2px; padding-top: 25px }
+	.yout { height: 100% ; width: 100% ; margin: 0px 0px 150px 0px ! important}
+	.list-icons i {top:-0.1rem;}
+	.video_headline h3, .video_headline a {display:block;}
+	.video_headline a {margin:0 auto;}
+	.taille_res{width: 45% !important; margin-left: 10px !important;}
+	.subsection_galerie{padding-bottom:3rem;}
+	#testimonials {text-align: center!important}
+	.section_titles { font-size: 25px ; }
+	.titles_form { font-size : 18px; }
+	.citation { font-size : 14px; display: inline-block; }
+	.medi {margin : 0px 10px 0px 10px; width: 25% ; height: 25%}
+	.bureau_member .the_pic {height: 150px;width: 150px; }
+	.bur { padding-top: 10px ;padding-left: 0px; }
+	.titles_form1 { font-size: 13px }
+	.titles_form2 { font-size: 10px ; line-height: 2}
+	.owl-controls { padding-top: 5px !important }
+	#div_media { padding-top: 12px !important; }
+	.wrapper .text {top: 20px;font-size: 20px ; line-height: 20px}
+	.wrapper .date_event { font-size: 10px;top:70px; margin-left: 22px;}
+	.pd{text-indent: 22px !important}
+	.bet_for { margin-bottom: 3px ; }
+	.item { padding-top: 25px !important; }
+	.frm { padding-top: 0px !important; }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#tgm_logo{width: 40%;padding-top: 50px;}
+	#date_tgm {font-size: 18px;}
+	#title_tgm{padding-top: 165px; padding-bottom: 0px; font-size: 22px;}
+	#back_to{font-size: 15px;     padding-left: 400px; }
+	.input-field{margin-bottom: 2px;}
+	#close_registration {top: 40px !important; right: 10px !important; font-size: 25px !important}
+	#mags {margin-left:10px;}
+	#mags #newest {width:29%;top:2px;}
+	#mags #old img {width:19%;}
+    .home_fullscreen {opacity:1 !important }
+    .home_content {text-align: center !important;padding-top: 0rem;margin-left: 0px !important;}
+    .menu_bar .navigation_desktop ul {margin: 0px 20px 0px 0px;}
+    #social_links a { margin: 0px 15px 0px 15px; padding-top: 25px }
+	.logo { width: 25% ;height: 25% ; margin-left: none !important ; margin-bottom: 20px }
+	.taille_res{    width: 40% !important; margin-left: 28px !important; margin-right: 30px !important;}	
+	.yout { height: 100% ; width: 100% ; margin: 0px 0px 150px 0px ! important}
+	.bureau_mem img{ width : 70%; }
+	.bur { padding-top: 10px ; }
+	.citation { font-size : 25px; display: inline-block; }
+	.medi {margin : 0px 10px 0px 10px; width: 20% ; height: 20%}
+	.container { margin-right: 0px ; margin-left: 0px ; width: 100%  }
+	.top_bar {margin-bottom:0;}
+	.home_anim5 { font-size: 35px !important}	
+	.list-icons i {top:-0.1rem;}
+	.video_headline h3, .video_headline a {display:block;}
+	.video_headline a {margin:0 auto;}
+	#testimonials {text-align: center!important}
+	#div_media { padding-top: 12px !important; }
+	.wrapper .text {top: 35px;font-size: 35px ; line-height: 30px}
+	.wrapper .date_event { font-size: 25px;top:150px; margin-left: 30px;}
+	.pd{text-indent: 52px !important}
+	.bet_for { margin-bottom: 6px ; }
+	.bet_for img{ width: 80% !important; }
+	.item { padding-top: 25px !important; }
+	.frm { padding-top: 0px !important; }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#back_to{font-size: 15px;     padding-left: 500px; }
+	#mags{ margin-left:78px;}
+	#tgm_logo{width: 40%;padding-top: 50px;}
+	#title_tgm{padding-top: 200px; }
+	#mags #newest{top:7px;}
+	.home_fullscreen {opacity:1 !important }
+    .home_content {text-align: center !important;padding-top: 0rem;margin-left: 0px !important;}
+    .menu_bar .navigation_desktop ul {margin: 15px 20px 0px 0px;}
+    #social_links a { margin: 0px 15px 0px 15px; padding-top: 25px }
+	.logo { width: 25% ;height: 25% ; margin-left: none !important ; margin-bottom: 20px }	
+	.yout { height: 100% ; width: 100% ; margin: 0px 0px 150px 0px ! important}
+	.taille_res{width: 23% !important; margin-left: 12px !important;}
+	.citation { font-size : 25px; display: inline-block; }
+	.medi {margin : 0px 10px 0px 10px; width: 15% ; height: 15%}
+	.container { margin-right: 0px ; margin-left: 0px ; width: 100%  }
+	.top_bar {margin-bottom:0;}
+	.home_anim5 { font-size: 35px !important}	
+	.list-icons i {top:-0.1rem;}
+	.video_headline h3, .video_headline a {display:block;}
+	.video_headline a {margin:0 auto;}
+	#testimonials {text-align: center!important}
+	.bureau_member .the_pic {height: 170px;width: 170px;}
+	.bur { padding-top: 10px ;padding-left: 0px; }
+	.col-sm-6 {width: 25%;}
+	.titles_form1 { font-size: 15px }
+	.titles_form2 { font-size: 13px }
+	.section_titles { font-size: 25px ; }
+	.mapini{margin-top: 64px !important;}
+	.wrapper .text {top: 30px;font-size: 20px ; line-height: 26px}
+	.wrapper .date_event { font-size: 12px;top:95px; margin-left: 30px;}
+	.pd{text-indent: 38px !important}
+	.mapini{margin-top: 100px !important;}
+	.bet_for { margin-bottom: 6px ; }
+	.bet_for img{ width: 80% !important; }
+	.item { padding-top: 25px !important;}
+	.frm { padding-top: 0px !important; }
+}
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.list-icons i {top:-0.1rem;}
+	
+
+}
+
+@media (min-width: 992px) and (max-width: 1060px) {
+	#title_tgm{padding-top: 40px; }
+	#tgm_logo{width: 40%;padding-top: 50px;}
+	#back_to{font-size: 15px;     padding-left: 700px; }
+	#mags{margin-left:82px !important;}
+	.home_content {margin-left: 0px !important;}
+	.yout {  margin: 0px 0px 180px 0px ! important}
+	#social_links a{     margin: 10px 10px 0px 13px; }
+	.wrapper .text {top: 25px;font-size: 25px ; line-height: 22px}
+	.wrapper .date_event { font-size: 11px;top:90px; margin-left: 30px;}
+	.pd{text-indent: 30px !important}
+	.titles_form1 { font-size: 16px }
+	.titles_form2 { font-size: 12px }
+	.section_titles { font-size: 25px ; }
+	.titles_form { font-size : 18px; }
+	.bureau_member .the_pic {height: 200px;width: 200px;}
+	.medi {margin : 0px 10px 0px 10px; width: 15% ; height: 15%}
+	.mapini{margin-top: 64px !important;}
+	.citation { font-size : 20px; display: inline-block; }
+	.wrapper .text {top: 35px;font-size: 35px ; line-height: 30px}
+	.wrapper .date_event { font-size: 25px;top:150px; margin-left: 30px;}
+	.pd{text-indent: 52px !important}
+	 }
+
+	
+}
