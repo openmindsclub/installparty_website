@@ -1,23 +1,23 @@
 /***** Body *******/
 @font-face {  
-  font-family: "bitch"; 
+  font-family: "trLight"; 
   src: url('typo-round/Typo_Round_Light_Demo.otf'); 
 }
 
 @font-face {  
-  font-family: "bitch_biss"; 
+  font-family: "trRegular"; 
   src: url('typo-round/Typo_Round_Regular_Demo.otf'); 
 }
 
 @font-face {  
-  font-family: "bitch_one"; 
+  font-family: "lato"; 
   src: url('lato/Lato-Regular.ttf'); 
 }
 
 
 body {
     background: #fff;
-    font-family: bitch , quicksand , Ubuntu, Roboto, sans-serif !important;
+    font-family: trLight , quicksand , Ubuntu, Roboto, sans-serif !important;
 }
 a {
     cursor: pointer;
@@ -28,7 +28,7 @@ h4{
 }
 
 #preloader{
-    font-family: bitch_one;
+    font-family: lato;
     background-color: #122639;
     color: #fff;
 }
@@ -51,7 +51,7 @@ h4{
 }
 
 #speakersIP ul {
-    font-family: bitch;
+    font-family: trLight;
     padding: 13px 10px;
     line-height: 15px;
 }
@@ -88,7 +88,7 @@ h4{
 }
 
 #signIP{
-    font-family: bitch_one;
+    font-family: lato;
 }
 
 #descrIP{
@@ -98,7 +98,7 @@ h4{
     text-transform: uppercase;
     font-size: 15px;
     padding: 8px 0px 2px 20px;
-    font-family: bitch_one;
+    font-family: lato;
     line-height: 1rem;
     margin-bottom: 0rem;
 }
@@ -121,11 +121,11 @@ h4{
 .success_inner{
     background: #d9d9d9;
     border: 0px;
-    font-family: bitch;
+    font-family: trLight;
     color: #0e1f34 ;
 }
 .success_inner h2{
-    font-family: bitch;
+    font-family: trLight;
     text-shadow: 0px;
 }
 
@@ -134,7 +134,7 @@ h4{
 }
 
 .msg p {
-    font-family: bitch_one;
+    font-family: lato;
     text-shadow: none;
 }
 .msg_inner{
@@ -151,12 +151,12 @@ h4{
     padding-bottom: 2rem;
     font-size: 16px;
     letter-spacing: 0.5px;
-    font-family: bitch_one;
+    font-family: lato;
 }
 
 .section_titles{ /* -50px */
     color: #f74b14 ;
-    font-family: bitch;
+    font-family: trLight;
     font-weight: 200;
     font-size: 30px;
     letter-spacing: 10px;
@@ -202,7 +202,7 @@ h4{
 #wwIP{
     background: #f4f8f7;
     opacity:0.1;
-    font-family: bitch;
+    font-family: trLight;
     font-weight: 200px;
 }
  
@@ -229,7 +229,7 @@ h4{
 }
 
 #countDown{
-    font-family: bitch;
+    font-family: trLight;
 }
 #countDown div{
     margin:23px 0px;
@@ -268,7 +268,7 @@ h4{
 }
 
 .savp{
-    font-family: bitch_one;
+    font-family: lato;
     position: absolute;
     top: 60%;
     cursor: pointer;
@@ -303,7 +303,7 @@ h4{
 #ipDesc p{
     font-size: 15px;
     font-weight: 500;
-    font-family: bitch_one;
+    font-family: lato;
     line-height: 25px;
     padding: 22px 10px 22px 10px;
     text-align: justify;
@@ -367,7 +367,7 @@ h4{
     font-size: 30px;
     line-height: 40px;
     color: #f7b12c ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #whySpIP h4{
@@ -377,7 +377,7 @@ h4{
     font-size: 30px;
     line-height: 30px;
     color: #F8AE28 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #beSpnIP h4{
@@ -387,7 +387,7 @@ h4{
     font-size: 30px;
     line-height: 30px;
     color: #616262 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #bePrsIP h4{
@@ -397,7 +397,7 @@ h4{
     font-size: 30px;
     line-height: 40px;
     color: #616262 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #talksIP h4{
@@ -407,7 +407,7 @@ h4{
     font-size: 30px;
     line-height: 40px;
     color: #288C86 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #wsIPBiss ul a{
@@ -415,7 +415,7 @@ h4{
     font-size: 20px;
     line-height: 2px;
     color:  #616262;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #wsIPBiss ul a li{
@@ -445,7 +445,7 @@ h4{
 
 #speakersIP ul a li span{
     text-transform: uppercase;
-    font-family: bitch_biss;
+    font-family: trRegular;
     font-weight: 500;
 }  
 
@@ -455,7 +455,7 @@ h4{
     font-size: 22px;
     font-weight: 700;
     color: #288C86;
-    font-family: bitch;
+    font-family: trLight;
 }
 
 .speakersDesc p{
@@ -465,7 +465,7 @@ h4{
     letter-spacing: 1px;
     font-weight: 500;
     line-height: 24px;
-    font-family: bitch_one;
+    font-family: lato;
 }  
 
 .workshopsDesc h4{
@@ -473,13 +473,13 @@ h4{
     text-align: left;
     font-size: 25px;
     color: #288C86 ;
-    font-family: bitch;
+    font-family: trLight;
     text-transform: uppercase;
 }
 
 .workshopsDesc p{
     word-spacing: 1px;
-    font-family: bitch_one;
+    font-family: lato;
     padding: 0px 20px;
     font-size: 16px;
     text-align: justify;
@@ -490,7 +490,7 @@ h4{
 
 .wsBold{
     color: #288C86 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 .wsSign{
@@ -506,7 +506,7 @@ h4{
 
 #aboutSpIP p{
     color: #616262;
-    font-family: bitch_one;
+    font-family: lato;
     line-height: 25px;
     padding: 25px 10px 25px 10px;
     text-align: justify;
@@ -515,7 +515,7 @@ h4{
 
 #signWs{
     color: #616262;
-    font-family: bitch_one; 
+    font-family: lato; 
 }
 #signWs .input-field{
     margin: 0px;
@@ -533,7 +533,7 @@ h4{
 }
 
 .msg_inner {
-    font-family: bitch;
+    font-family: trLight;
     border-radius: 0px;
     padding: 60px;
 }
@@ -555,12 +555,12 @@ h4{
     text-align: left;
     font-size: 30px;
     line-height: 35px;
-    font-family: bitch;
+    font-family: trLight;
 }
 
 #ipBG p span{
     color: #2980b9;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 #descIPBG{
@@ -576,7 +576,7 @@ h4{
 #descIPBG p{
     font-size: 15px;
     font-weight: 500;
-    font-family: bitch_one;
+    font-family: lato;
     line-height: 25px;
     padding: 22px 10px 22px 10px;
     text-align: justify;
@@ -656,7 +656,7 @@ h4{
     font-weight: 500;
     line-height: 25px;
     color: #288C86 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 .nameMem1{
@@ -666,7 +666,7 @@ h4{
     font-size: 25px;
     font-weight: 500;
     color: #288C86 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 .postMem{
@@ -675,7 +675,7 @@ h4{
     padding: 0px 5px;
     font-size: 20px;
     color: #616262 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 .equipeMem{
@@ -684,7 +684,7 @@ h4{
     font-size: 20px;
     font-weight: 500;
     color: #616262 ;
-    font-family: bitch_biss;
+    font-family: trRegular;
 }
 
 
@@ -715,7 +715,7 @@ h4{
 
 #myFoot p{
     color: #F5AF2B ;
-    font-family: bitch;
+    font-family: trLight;
     font-weight: 500;
     font-size:25px;
     letter-spacing: 2px;
@@ -723,7 +723,7 @@ h4{
 
 #ip_soon{
     font-size: 25px;
-    font-family: bitch_one ;
+    font-family: lato ;
 }
 /***Logo Spons*****/
 .spons{
